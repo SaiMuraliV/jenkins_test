@@ -18,3 +18,7 @@ class TestCase01:
     @pytest.mark.sanity
     def test_add3(self):
         assert add(2, 0) == 2, "Failed"
+        
+        
+    def test_add4(self):
+        assert add(2, 3) == 0, 'Failed'
