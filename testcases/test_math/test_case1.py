@@ -19,6 +19,6 @@ class TestCase01:
     def test_add3(self):
         assert add(2, 0) == 2, "Failed"
         
-        
+    @pytest.mark.fail    
     def test_add4(self):
         assert add(2, 3) == 0, 'Failed'
